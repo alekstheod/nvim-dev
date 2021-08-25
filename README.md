@@ -7,4 +7,4 @@
 
 ```
   
-  ### Vim-dev is a set of configurations for neovim which makes the developers life easier
+  ### nvim-dev is a set of configurations for neovim which makes the developers life easier

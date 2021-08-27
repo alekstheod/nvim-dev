@@ -20,7 +20,7 @@
 
 Based on above plugins there is an additional features which makes the coding simpler.
 
-<leader> is set to space
+```<leader>``` is set to space
 
 ### Open recent files
 ![open_recent](https://user-images.githubusercontent.com/976614/131179989-1b11ff36-a31a-4ceb-83fb-741d624d7192.gif)

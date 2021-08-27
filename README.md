@@ -19,9 +19,10 @@
 
 Based on above plugins there is an additional features which makes the coding simpler.
 
+<leader> is set to space
 
 ## Open recent files
-![open_recent](https://user-images.githubusercontent.com/976614/131179553-016fca9d-4396-414e-8ee8-e60be4e65190.gif)
-key map: space+re
+![open_recent](https://user-images.githubusercontent.com/976614/131179772-60bf8379-ab98-49c0-840d-602b8ac7acfd.gif)
+key mapping: <leader> re
 
 

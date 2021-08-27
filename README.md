@@ -32,3 +32,7 @@ key mapping: <leader> re
 key mapping: <leader> bb
 
 ctrl+space to mark the file while in the fzf popup
+        
+### Insert path using fzf
+![insert_path_fzf](https://user-images.githubusercontent.com/976614/131183880-07fa5a0b-74fc-4ac0-9115-2ebb3eb9b41d.gif)
+While in insert mode press ctrl+f and select the needed file

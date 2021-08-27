@@ -1,3 +1,4 @@
+
 ```
             _                     _            
  _ ____   _(_)_ __ ___         __| | _____   __
@@ -22,7 +23,7 @@ Based on above plugins there is an additional features which makes the coding si
 <leader> is set to space
 
 ## Open recent files
-![open_recent](https://user-images.githubusercontent.com/976614/131179772-60bf8379-ab98-49c0-840d-602b8ac7acfd.gif)
+![open_recent](https://user-images.githubusercontent.com/976614/131179989-1b11ff36-a31a-4ceb-83fb-741d624d7192.gif)
 key mapping: <leader> re
 
 

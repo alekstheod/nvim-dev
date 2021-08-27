@@ -22,12 +22,13 @@ Based on above plugins there is an additional features which makes the coding si
 
 <leader> is set to space
 
-## Open recent files
+### Open recent files
 ![open_recent](https://user-images.githubusercontent.com/976614/131179989-1b11ff36-a31a-4ceb-83fb-741d624d7192.gif)
 key mapping: <leader> re
+
             
-## Close multiple buffers through fzf
+### Close multiple buffers through fzf
 ![close_files](https://user-images.githubusercontent.com/976614/131180182-5cd8b38c-a2e6-4625-aae2-093d95da5aa2.gif)
 key mapping: <leader> bb
 
-
+ctrl+space to mark the file while in the fzf popup

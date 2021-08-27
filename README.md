@@ -18,7 +18,7 @@
 * NerdTree - https://github.com/preservim/nerdtree
 * Powerline - https://github.com/vim-airline/vim-airline
 
-Based on above plugins there is an additional features which makes the coding simpler.
+Based on above plugins there are additional features which makes the development workflow smoother.
 
 ```<leader>``` is set to space
 

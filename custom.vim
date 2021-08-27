@@ -57,3 +57,22 @@ endfunction
 nmap <leader>bb :call DeleteBuffersFzf()<CR>
 vmap <leader>bb :call DeleteBuffersFzf()<CR>
 imap <leader>bb :call DeleteBuffersFzf()<CR>
+
+function! TrimCwd(id, str)
+	let cwd = getcwd()
+	let trimed =  trim(a:str)
+	let result = substitute(trim(a:str), cwd.'/', '', '')
+	return result
+endfunction
+
+function! OpenRecentFiles()
+	let s:files = split(execute(':oldfiles'), '\d\+:')
+	let s:files = filter(s:files, {idx, val -> TrimCwd(idx, v:val) != trim(v:val)})
+	let s:files = map(s:files, function('TrimCwd'))
+	let s:files = filter(s:files, {idx, val -> !empty(globpath(getcwd(),v:val))})
+	call fzf#run(fzf#wrap({'source': s:files, 'options': '-m', 'sink': ':e'}))
+endfunction
+
+nmap <leader>re :call OpenRecentFiles()<CR>
+vmap <leader>re :call OpenRecentFiles()<CR>
+
